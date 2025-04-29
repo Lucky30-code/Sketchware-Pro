@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/inputPrediction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entre ton pronostic"
+        android:background="#222222"
+        android:textColor="#FFD700"
+        android:hintTextColor="#888888"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lancer (90s)"
+        android:background="#FFD700"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/displayPrediction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aucun pronostic encore"
+        android:textColor="#FFD700"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/timerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="90 secondes"
+        android:textColor="#FFD700"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
